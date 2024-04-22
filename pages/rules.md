@@ -39,7 +39,7 @@ See below for rulesets.
 
 ### Gates of the Garden (2024-)
 
-This ruleset is still in progress, intended for new GoG community run starting May 1st 2024. Subject to change until that date.
+This ruleset is still in progress, intended for new GoG community run starting May 4th 2024. Subject to change until that date.
 
 1. **Ensure using a Hodgepodge version after this commit**
     - https://github.com/GTNewHorizons/Hodgepodge/pull/358
@@ -50,16 +50,22 @@ This ruleset is still in progress, intended for new GoG community run starting M
         - `disableWorldTypeChunkPopulation=true`
         - don't change `disableModdedChunkPopulation` - we use this to access chaos shards late game
 3. **Generate world normally**
+    - Note: We left TF tree generation on because it looks cool, if you don't want it you can edit `D:CanopyCoverage` in the twilight forest config
+        - ![](../assets/images/gog-tf-trees.png)
 4. **Questbook allowed**
-    - You need this for three items and bee start:
-    - Silverwood + greatwood sapling (used for certain crafting recipes in Thaumcraft; there’s a coin trade)
+    - You need this for one item and bee start:
     - Flawless diamond (needed to make MV lathe for circuit progression)
     - For bee start, make a scoop and get bee coins. You can use these to trade for two hives. If the hives do not drop a princess and a drone (needed for the next step of QB bees), reset to a backup. After you clear the princess/drone boundary, breed carefully (eg gentle frames) until you can get to alveary swarmer, which lets you generate new ignobles. After this, work towards Botania Hiveacynth, which will unlock new bees for you.
 5. **No collecting progression resources from non-OW dims**
     - In other words, non-OW void mining is disallowed, and anything else that relies on that dim - eg kobold hollow hill farming in TF.
     - You can use other dims to progress in QB.
     - Feel free to break this rule for your own run, this is just what we did for GotG run.
-6. **difficulty=hard**
+6. **Exceptions to rule 6**
+    - You are allowed to travel to the end and kill the Chaos Dragon for Chaos Crystals (generation for this is intentionally left on)
+7. **difficulty=hard**
+
+### Original Skyblock Run (2021-2022)
+https://docs.google.com/document/d/1Ajmpajbpw8H9rOpiPgX6AcUOcpdIfArwb-aoVrKly4I/edit
 
 ### Other run types
 1. Nether roof / nether only run
