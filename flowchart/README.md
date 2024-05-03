@@ -4,5 +4,7 @@ Files in this directory use MermaidJS format. To edit them, just copy-paste them
 
 ### Current Charts
 
+Click on the charts and then click "Raw" to view them in real size.
+
 ![](LV-Unlock.svg)
 ![](LV-EV.svg)
