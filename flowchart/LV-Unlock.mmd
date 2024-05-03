@@ -33,6 +33,15 @@ flowchart TD
             K("Beekeeper\n(Simmering Comb Trade)")
             AB("Apothecary\n(Clay Trade)")
         end
+        subgraph SG_PC [PECH TRADING]
+            ZA(Pech Spawn\nMagical Forest Only)
+            ZB(Gold Coins\nThaum Lootbags)
+            ZC(Pech Trading)
+            ZD(Silverwood + Greatwood Saplings)
+        end
+        ZA --> ZC
+        ZB --> ZC
+        ZC --> ZD
     end
     A --> B --> SG_IM --> F
     D -->|Unenchanted Golden Apple| G
@@ -145,6 +154,7 @@ flowchart TD
     BG -->|Simmering Combs| BH
     BH -->|Lava| BI
     BI --> BJ
+    ZD --> SG_WA
 
     %% Styling
     classDef gate color:#000000, fill:#00C853
@@ -152,3 +162,4 @@ flowchart TD
     class H gate
     class AG gate
     class BJ gate
+    class ZD gate
