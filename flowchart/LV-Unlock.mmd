@@ -16,7 +16,6 @@
 }%%
 
 flowchart TD
-    %% Node/Subgraph definitions
     subgraph SG_DA [DIRT AGE]
         A(Die)
         B(Make Mob Spawning Platform/Farm)
@@ -35,6 +34,12 @@ flowchart TD
             AB("Apothecary\n(Clay Trade)")
         end
     end
+    A --> B --> SG_IM --> F
+    D -->|Unenchanted Golden Apple| G
+    F -->|Splash Weakness Potion| G
+    G --> SG_VG
+    H --> SG_WA
+
     subgraph SG_WA [WOOD AGE]
         L(Crafting Table)
         M(Drowning Creeper)
@@ -56,43 +61,94 @@ flowchart TD
             Z(Mix and Smelt Bronze)
             AA(Railcraft Iron Tank)
         end
+        P --> T --> Z --> AA
         subgraph SG_NW [NEW/EASY ROUTE]
-            AC(Craft Seared Tank)
             AD("Gravel\nSand\n(Hammer Cobble)")
+            AC(Craft Seared Tank)
+            AJ(Coke Oven)
+            BC("Apothecary Villager\n(Clay Trade)")
         end
+        BC --> AJ
+        AD --> AC
         AE(XP Storage)
         AF(XP Drain)
         AG(XP Bucket)
     end
-    subgraph SG_XP [XP AGE]
-        AH(XP Bucket Crafting)
-    end
-
-    %% Edge definitions
-    A --> B --> SG_IM --> F
-    D -->|Unenchanted Golden Apple| G
-    F -->|Splash Weakness Potion| G
-    G --> SG_VG
-    H --> SG_WA
     L -->|Flint GT Tools| N
-    M --> N --> O --> P --> T
+    M --> N --> O --> P
     L --> Q --> SG_CR
     Q --> U
     V --> U
     W --> X -->|Wool| Y
     S --> Z
     R --> Z
-    T --> Z --> AA
     N --> SG_NW
-    AD --> AC
     AC --> AE
     AA --> AE
     AF --> AE --> AG --> SG_XP
     O --> AC
-    AB --> AC
+    AB --> BC --> AC
+
+    subgraph SG_XP [XP AGE]
+        AH(XP Bucket Crafting)
+        AK(Coke Oven)
+        AL(Rubber Bar)
+        AM(Steam Alloy Smelter)
+        AN(BC Tank)
+        AO(Piston)
+        AR(Steam Compressor)
+        AS("Bricked Blast Furance (BBF)")
+        AT(LV Motors)
+        AU(Forestry Centrifuge)
+        AV(Forestry Squeezer)
+        AW("(Placeholder)")
+        subgraph SG_THAUM [THAUMCRAFT]
+            AP(Scribing Tools)
+            AQ("Glass Bottle (Witch, Rare Drops)\nFeather (Chicken, Sniper Skeleton)\nInk Sac (Various Mobs)")
+            AX(Research Table)
+            AY(Bookshelf)
+            AZ(Perform Thaumcraft Research)
+            BA("Research Points\n(Bonus Points)\n(Elder Wisdom)\n(Mob Drops)")
+            BB("Librarian Villager\n(Glass Trade)\n(Bookshelf Trade)")
+            BD(Research Lazullia)
+            BE(Obtain Lapis Lazuli Plates)
+        end
+        AQ --> AP
+        AX --> AZ
+        AP --> AZ
+        AY --> AZ
+        BA --> AZ
+        BB --> AY
+        AZ --> BD --> BE
+
+        BF(Hobbyist Steam Engine)
+        BG(Process Simmering Combs)
+        BH(Process Phosphor into Lava)
+        BI(TC Smeltery)
+        BJ(Ball Mold)
+    end
+    AH -->|Hard Route| AK
+    AH -->|Sulfur\nRaw Rubber| AL --> AP
+    AH -->|Redstone| AM -->|Red Alloy| AO --> AR -->|Firebrick| AS
+    AM -->|Obsidian Glass| AN
+    AH -->|Gypsum\nCalcite\nQuartz Sand\nClay Dust\nStone Dust| AS
+    AL --> AT
+    AS --> AW
+    AT --> AW
+    AW --> AU
+    AW --> AV
+    BE --> BF
+    AW --> BF
+    BF -->|RF Power| AU
+    AU --> BG
+    AV --> BH
+    BG -->|Simmering Combs| BH
+    BH -->|Lava| BI
+    BI --> BJ
 
     %% Styling
     classDef gate color:#000000, fill:#00C853
     
     class H gate
     class AG gate
+    class BJ gate
