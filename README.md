@@ -17,7 +17,7 @@
 7. How High Can You Go?
 
 ### Helpful Tools
-1. [Reaching LV Flowchart](https://raw.githubusercontent.com/OrderedSet86/garden-of-grind-doc/master/flowchart/LV-Unlock.svg)
+1. [Detailed Progression Flowcharts](https://github.com/OrderedSet86/garden-of-grind-doc/tree/master/flowchart)
 
 ### Primary Maintainers
 OrderedSet (`.order` on discord)
