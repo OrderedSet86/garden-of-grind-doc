@@ -39,19 +39,41 @@ See below for rulesets.
 
 ### Gates of the Garden (2024-)
 
-This ruleset is still in progress, intended for new GoG community run starting May 4th 2024. Subject to change until that date.
+Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for writing a mixin to remove world gen. The benefit of this new mixin is that it allows us to travel to other dims (yay no more OW skybox), and not be stuck with a single biome.
 
 1. **Ensure using a Hodgepodge version after this commit**
     - https://github.com/GTNewHorizons/Hodgepodge/pull/358
+    - You can easily download the jar at this release tag https://github.com/nzbasic/Hodgepodge/releases/tag/Skygate
     - This removes world gen on a code level, allowing us to keep biomes and making modded dimensions empty
 2. **Config changes**
+    - `GregTech/Worldgeneration.cfg`
+        - Under `endasteroids`, set:
+            - `B:GenerateAsteroids_true=false`
     - `hodgepodge.cfg`
-        - `disableChunkTerrainGeneration=true`
-        - `disableWorldTypeChunkPopulation=true`
-        - don't change `disableModdedChunkPopulation` - we use this to access chaos shards late game
+        - Under the `tweaks` section, add the following three settings:
+            - `B:disableChunkTerrainGeneration=true`
+            - `B:disableWorldTypeChunkPopulation=true`
+            - `B:disableModdedChunkPopulation=false` (this allows us to generate chaos island for chaos crystals)
+    - `Natura.cfg`
+        - Under `disabler`, set:
+            - `B:"Generate Ash Clouds"=false`
+            - `B:"Generate Dark Clouds"=false`
+            - `B:"Generate Overworld Clouds"=false`
+            - `B:"Generate Sulfur Clouds"=false`
+            - `B:"Generate Thornvines"=false`
+    - `Thaumcraft.cfg`
+        - `B:generate_aura_nodes=false`
+        - `B:generate_structures=false`
+    - `witchery.cfg`
+        - Under `general`, set:
+            - `B:GenerateCovens=false`
+            - `B:GenerateHobgoblinHuts=false`
+            - `B:GenerateShacks=false`
+            - `B:GenerateWickerMen=false`
+            - `B:GenerateWitchHuts=false`
+        - Make sure you leave `B:GenerateApothecaries=true`. Apothecary villagers don’t spawn if this is false, which prevents clay trade for bypassing RC tank.
 3. **Generate world normally**
-    - Note: We left TF tree generation on because it looks cool, if you don't want it you can edit `D:CanopyCoverage` in the twilight forest config
-        - ![](../assets/images/gog-tf-trees.png)
+    - You don't have to turn "generate structures" off!
 4. **Questbook allowed**
     - You need this for one item and bee start:
     - Flawless diamond (needed to make MV lathe for circuit progression)
@@ -59,9 +81,9 @@ This ruleset is still in progress, intended for new GoG community run starting M
 5. **No collecting progression resources from non-OW dims**
     - In other words, non-OW void mining is disallowed, and anything else that relies on that dim - eg kobold hollow hill farming in TF.
     - You can use other dims to progress in QB.
-    - Feel free to break this rule for your own run, this is just what we did for GotG run.
-6. **Exceptions to rule 6**
-    - You are allowed to travel to the end and kill the Chaos Dragon for Chaos Crystals (generation for this is intentionally left on)
+    - (Feel free to break this rule for your own run, this is just what we did for GotG run.)
+6. **Exception to rule 5**
+    - Since Chaos Crystal is needed for stargate, you are allowed to travel to the end and kill the Chaos Dragon for Chaos Crystals. Due to earlier config it should be the only thing that generates in the end.
 7. **difficulty=hard**
 
 ### Original Skyblock Run (2021-2022)
