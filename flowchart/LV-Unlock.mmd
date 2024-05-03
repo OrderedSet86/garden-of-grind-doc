@@ -1,0 +1,98 @@
+%%{
+  init: {
+    'theme': 'dark',
+    'themeVariables': {
+      'primaryColor': '#000000',
+      'primaryTextColor': '#FFFFFF',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff',
+      'titleColor': '#00C853',
+      'darkMode': 'true',
+      'mainBkg': '#000000'
+    }
+  }
+}%%
+
+flowchart TD
+    %% Node/Subgraph definitions
+    subgraph SG_DA [DIRT AGE]
+        A(Die)
+        B(Make Mob Spawning Platform/Farm)
+        subgraph SG_IM [INFERNAL MOBS]
+            C("Elite Mob Drops\n(20% spawn chance)")
+            D("Ultra Mob Drops\n(2% spawn chance)")
+            E("Inferno Mob Drops\n(0.14% spawn chance)")
+        end
+        F(Common Thaumcraft Lootbag)
+        G(Convert Zombie Villager)
+        subgraph SG_VG [VILLAGERS]
+            H("Farmer or Lumberjack\n(Sapling Trade)")
+            I("Heretic\n(Profane Wand Trade)")
+            J("Librarian\n(Glass Trade)\n(Bookshelf Trade)")
+            K("Beekeeper\n(Simmering Comb Trade)")
+            AB("Apothecary\n(Clay Trade)")
+        end
+    end
+    subgraph SG_WA [WOOD AGE]
+        L(Crafting Table)
+        M(Drowning Creeper)
+        N(Cobblestone)
+        O(Furnace)
+        Q(Earliest GT Crafting Tools)
+        subgraph SG_CR [CROPS]
+            R(Copper Oreberry\nor Cyprium)
+            S(Tin Oreberry\nor Stagnium)
+            W("Grass\n(Spread From IC2 Weeds)")
+        end
+        U(Tinker's Construct Tools)
+        V("Paper\n(Wood Pulp + Water)\n(Paperbark)")
+        X(Passive Mob Spawning)
+        Y("Skip Night (Bed)")
+        subgraph SG_IT [HARD/OLD ROUTE]
+            P(Smelt Stone)
+            T(Craft Mortar)
+            Z(Mix and Smelt Bronze)
+            AA(Railcraft Iron Tank)
+        end
+        subgraph SG_NW [NEW/EASY ROUTE]
+            AC(Craft Seared Tank)
+            AD("Gravel\nSand\n(Hammer Cobble)")
+        end
+        AE(XP Storage)
+        AF(XP Drain)
+        AG(XP Bucket)
+    end
+    subgraph SG_XP [XP AGE]
+        AH(XP Bucket Crafting)
+    end
+
+    %% Edge definitions
+    A --> B --> SG_IM --> F
+    D -->|Unenchanted Golden Apple| G
+    F -->|Splash Weakness Potion| G
+    G --> SG_VG
+    H --> SG_WA
+    L -->|Flint GT Tools| N
+    M --> N --> O --> P --> T
+    L --> Q --> SG_CR
+    Q --> U
+    V --> U
+    W --> X -->|Wool| Y
+    S --> Z
+    R --> Z
+    T --> Z --> AA
+    N --> SG_NW
+    AD --> AC
+    AC --> AE
+    AA --> AE
+    AF --> AE --> AG --> SG_XP
+    O --> AC
+    AB --> AC
+
+    %% Styling
+    classDef gate color:#000000, fill:#00C853
+    
+    class H gate
+    class AG gate
