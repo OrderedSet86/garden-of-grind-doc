@@ -62,8 +62,12 @@ Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for wri
             - `B:"Generate Sulfur Clouds"=false`
             - `B:"Generate Thornvines"=false`
     - `Thaumcraft.cfg`
-        - `B:generate_aura_nodes=false`
-        - `B:generate_structures=false`
+        - Under `world_generation`, set:
+            - `B:generate_aura_nodes=false`
+            - `B:generate_structures=false`
+    - `TinkersConstruct.cfg`
+        - Under `dimblacklist`, set:
+            - `B:slimeIslGenDim0=false`
     - `witchery.cfg`
         - Under `general`, set:
             - `B:GenerateCovens=false`
