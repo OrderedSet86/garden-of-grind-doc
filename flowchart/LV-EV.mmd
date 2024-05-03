@@ -1,0 +1,118 @@
+%%{
+  init: {
+    'theme': 'dark',
+    'themeVariables': {
+      'primaryColor': '#000000',
+      'primaryTextColor': '#FFFFFF',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff',
+      'titleColor': '#00C853',
+      'darkMode': 'true',
+      'mainBkg': '#000000'
+    }
+  }
+}%%
+
+flowchart TD
+    subgraph LV-HV Progression
+        A(Ball Mold)
+        B(LV Circuits)
+        C(MV Circuits)
+        D(XP Buckets)
+        E(Wafer)
+        subgraph SG_QB [Questbook]
+            G("Diamond Ore\n(Can't Find Those Ores?)")
+            AC("Coin (The Beekeeper 1)\n(First Things First)")
+            AD("Hive\n(Any Hive quest)\n(in Coins, Coins, Coins tab)")
+        end
+        AC --> AD
+        subgraph SG_GS [Scrap]
+            L(Scrap Boxes)
+            M("9 Green Sapphire\n(Req. average 324k trash items)")
+            N(Recycler)
+            O(Valid IC2 Trash Items)
+            P(Packager)
+            S(IC2 Scrap)
+            AJ(Titanium Dust)
+        end
+        O --> N --> P --> S --> L --> M
+        L --> AJ
+
+        subgraph SG_LV [LV Machines]
+            F(EBF)
+            H(Sifter)
+            T(Cutting Machine)
+            R(Compressor)
+        end
+        subgraph SG_MV [MV Machines]
+            I(MV Lathe)
+        end
+        F --> SG_MV
+        C --> SG_MV
+        
+        J(HV Circuits)
+        K(Green Sapphire Lens)
+        Q(Green Sapphire Block)
+        U(Green Sapphire Plate)
+        V(RAM Chip)
+        X(Ignis Lens)
+        Y(Integrated Logic Chips)
+        Z(Block of Ignis)
+        AA(Fire Shards)
+        AB(Wizard Villager Trading)
+
+        subgraph SG_B [Bee Start]
+            AE(Get lucky and drop at least\na pristine princess + a drone)
+            AF(Do all possible quests\nto get more hive trades)
+            subgraph SB_BR [Renewable Ignoble Options]
+                AG("Alveary Swarmer\n(MV due to Alveary)")
+                AH("Hiveacynth\n(HV due to infusion)")
+            end
+        end
+        AE --> AF
+        AF --> SB_BR
+
+        A --> B --> C --> J
+        D -->|Gallium\nArsenic| E
+        F --> E
+        G --> H -->|Flawless Diamond| I
+        M --> Q --> U
+        R --> Q
+        T --> U
+        U --> K
+        I --> K
+        E --> V
+        K --> V
+        V --> J
+        E --> C
+        B --> SG_LV
+        Y --> J
+        X --> Y
+        R --> Z
+        AA --> Z
+        Z --> X
+        I --> X
+        AB --> AA
+        AD --> AE
+    end
+    subgraph SG_TI [Titanium]
+        AI(Mega Blast Furnace)
+        AK(Hot Titanium Ingot)
+        AL("At Least 1A LuV power\n(eg 64A HV)")
+        AM(Titanium Ingot)
+        AN(HV Vacuum Freezer)
+    end
+    J --> SG_TI
+    AI --> AK
+    AL --> AK
+    AJ --> AK
+    AK --> AM
+    AN --> AM
+
+    classDef gate color:#000000, fill:#00C853
+    
+    class A gate
+    class J gate
+    class AM gate
