@@ -10,7 +10,7 @@ See below for rulesets.
 
 --------------------------------------
 
-Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for writing a mixin to remove world gen. The benefit of this new mixin is that it allows us to travel to other dims (yay no more OW skybox), and not be stuck with a single biome.
+Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for writing a mixin to remove world gen. The benefit of this new mixin is that it allows us to travel to other dims (yay no more OW skybox), and not be stuck with a single biome. **With these rules Stargate is possible!!**
 
 1. **Ensure using a Hodgepodge version after this commit**
     - https://github.com/GTNewHorizons/Hodgepodge/pull/358

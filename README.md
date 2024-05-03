@@ -16,5 +16,8 @@
 6. After EV
 7. How High Can You Go?
 
+### Helpful Tools
+1. [Reaching LV Flowchart](https://raw.githubusercontent.com/OrderedSet86/garden-of-grind-doc/master/flowchart/LV-Unlock.svg)
+
 ### Primary Maintainers
 OrderedSet (`.order` on discord)
