@@ -133,7 +133,7 @@ flowchart TD
 
         BE(Obtain Lapis Lazuli Plates)
         BF(Hobbyist's Steam Engine)
-        BG(Process Simmering Combs)
+        BG(Simmering Comb -> Phosphor)
         BH(Process Phosphor into Lava)
         BI(TC Smeltery)
         BJ(Ball Mold)
@@ -153,6 +153,14 @@ flowchart TD
 
         BR("Earliest Bees\n(Steam Quest -> Scoop\n-> Hive)")
         AH --> BR
+
+        BS(Simmering Comb)
+        BT("Beekeeper Villager\n(Simmering Comb Trade)")
+        BU(Breed Transmuting Bees\n-> Simmering Comb)
+        BS --> BG
+        BT --> BS
+        BU --> BS
+        BR --> BU
     end
     AH -->|Hard Route| AK
     AH -->|Sulfur\nRaw Rubber| AL --> AP
@@ -169,7 +177,7 @@ flowchart TD
     BF -->|RF Power| AU
     AU --> BG
     AV --> BH
-    BG -->|Simmering Combs| BH
+    BG --> BH
     BH -->|Lava| BI
     BI --> BJ
     ZD --> SG_WA
