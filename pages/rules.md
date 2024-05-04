@@ -53,6 +53,7 @@ Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for wri
     - You need this for one item and bee start:
         - Flawless diamond (needed to make MV lathe for circuit progression)
         - For bee start, make a scoop and get bee coins. You can use these to trade for two hives. If the hives do not drop a princess and a drone (needed for the next step of QB bees), reset to a backup. After you clear the princess/drone boundary, breed carefully (eg gentle frames) until you can get to alveary swarmer, which lets you generate new ignobles. After this, work towards Botania Hiveacynth, which will unlock new bees for you.
+    - In 2.6.0 you also need QB for lapis dust drop (see [LV Unlock Flowchart](../flowchart/LV-Unlock.svg))
     - For our run we are **not** doing min questbook, so we can trade for eg. silverwoods as well, but we are **not** allowing opening lootbags.
 5. **No collecting progression resources from non-OW dims**
     - In other words, non-OW void mining is disallowed, and anything else that relies on that dim - eg kobold hollow hill farming in TF.
