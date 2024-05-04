@@ -120,7 +120,6 @@ flowchart TD
             BA("Research Points\n(Bonus Points)\n(Elder Wisdom)\n(Mob Drops)")
             BB("Librarian Villager\n(Glass Trade)\n(Bookshelf Trade)")
             BD(Research Lazullia)
-            BE(Obtain Lapis Lazuli Plates)
         end
         AQ --> AP
         AX --> AZ
@@ -128,13 +127,28 @@ flowchart TD
         AY --> AZ
         BA --> AZ
         BB --> AY
-        AZ --> BD --> BE
+        AZ --> BD
+        BD --> BK -->|Currently broken in 2.6.0| BL --> BE
 
-        BF(Hobbyist Steam Engine)
+        BE(Obtain Lapis Lazuli Plates)
+        BF(Hobbyist's Steam Engine)
         BG(Process Simmering Combs)
         BH(Process Phosphor into Lava)
         BI(TC Smeltery)
         BJ(Ball Mold)
+        BK(Obtain Lapis Lazuli)
+        BL(Obtain Lapis Dust)
+
+        subgraph SG_QB [Questbook]
+            BM(Get 24 Leather)
+            BN("8 Lapis Lazuli\n(Quest: Leather Armor)")
+            BO(Quest: Divine Rod of the Gods)
+            BP(Quest: Can't Find Those Ores)
+            BQ(Lapis Ore)
+        end
+        BM --> BN
+        BN --> BK
+        BO --> BP --> BQ -->|Lucky Drop| BL
     end
     AH -->|Hard Route| AK
     AH -->|Sulfur\nRaw Rubber| AL --> AP
