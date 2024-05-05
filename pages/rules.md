@@ -61,6 +61,8 @@ Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for wri
 6. **Exception to rule 5**
     - Since Chaos Crystal is needed for stargate, you are allowed to travel to the end and kill the Chaos Dragon for Chaos Crystals. Due to earlier config it should be the only thing that generates in the end.
 7. **difficulty=hard**
+8. **OW void rules**
+    - For our run, we banned overworld void pumping (as this makes oil trivial), but allowed overworld void mining (ZPM+).
 
 
 ### Manual Garden of Grind (MGoG) (2022-2024)
