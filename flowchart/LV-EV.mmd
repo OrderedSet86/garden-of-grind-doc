@@ -30,27 +30,20 @@ flowchart TD
         AC --> AD
         subgraph SG_GS [Scrap]
             L(Scrap Boxes)
-            M("9 Green Sapphire\n(Req. average 324k trash items)")
+            M("9 Green Sapphire\n(Req. average 3.24 million trash items)")
             N(Recycler)
             O(Valid IC2 Trash Items)
-            P(Packager)
-            S(IC2 Scrap)
+            P("Packager\n(9x scrap)")
+            S("IC2 Scrap\n(12.5% chance)")
             AJ(Titanium Dust)
         end
-        O --> N --> P --> S --> L --> M
+        O --> N --> S --> P --> L --> M
         L --> AJ
 
-        subgraph SG_LV [LV Machines]
-            F(EBF)
-            H(Sifter)
-            T(Cutting Machine)
-            R(Compressor)
-        end
-        subgraph SG_MV [MV Machines]
-            I(MV Lathe)
-        end
-        F --> SG_MV
-        C --> SG_MV
+        F(LV+ EBF)
+        H(Sifter)
+        I(MV Lathe)
+        F --> I
         
         J(HV Circuits)
         K(Green Sapphire Lens)
@@ -60,8 +53,14 @@ flowchart TD
         X(Ignis Lens)
         Y(Integrated Logic Chips)
         Z(Block of Ignis)
-        AA(Fire Shards)
-        AB(Wizard Villager Trading)
+        subgraph SG_FS [Fire Shards]
+            AA(Fire Shards)
+            AB(Wizard Villager Trading)
+            AS(Any Shard)
+            AT(Balanced Shard Transmutation)
+        end
+        AB --> AS --> AT --> AA
+        AB --> AA
 
         subgraph SG_B [Bee Start]
             AE(Get lucky and drop at least\na pristine princess + a drone)
@@ -74,28 +73,38 @@ flowchart TD
         AE --> AF
         AF --> SB_BR
 
+        subgraph SG_SS [Stainless Steel]
+            AO(Stainless Steel)
+            AP(2x MV Energy Hatch EBF)
+            AQ(Chrome)
+            AR(Manganese)
+            AU(Redstone Centrifuging)
+            AV(Lava Centrifuging)
+        end
+        AP --> AO
+        AQ --> AO
+        AR --> AO
+        AU --> AQ
+        AV --> AR
+
         A --> B --> C --> J
         D -->|Gallium\nArsenic| E
         F --> E
         G --> H -->|Flawless Diamond| I
         M --> Q --> U
-        R --> Q
-        T --> U
         U --> K
         I --> K
         E --> V
         K --> V
         V --> J
         E --> C
-        B --> SG_LV
         Y --> J
         X --> Y
-        R --> Z
         AA --> Z
         Z --> X
         I --> X
-        AB --> AA
         AD --> AE
+        B --> F
     end
     subgraph SG_TI [Titanium]
         AI(Mega Blast Furnace)
@@ -103,16 +112,29 @@ flowchart TD
         AL("At Least 1A LuV power\n(eg 64A HV)")
         AM(Titanium Ingot)
         AN(HV Vacuum Freezer)
+        AW(Implosion Compressor)
+        AX(Garnet Block)
+        AY(IC2 Garnydinia)
+        AZ(Garnydinia Nitric Acid Processing)
+        BA(Antimony)
+        BB(Soldering Alloy)
+        BC(864x Cupronickel Coils)
     end
-    J --> SG_TI
+    J --> AI
     AI --> AK
     AL --> AK
     AJ --> AK
     AK --> AM
     AN --> AM
+    AO --> AN
+    J --> AW
+    AO --> AW
+    AW --> AX --> AY --> AZ --> BA --> BB --> AI
+    BC --> AI
 
     classDef gate color:#000000, fill:#00C853
     
     class A gate
     class J gate
     class AM gate
+    class AO gate

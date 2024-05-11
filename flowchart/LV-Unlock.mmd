@@ -74,14 +74,14 @@ flowchart TD
         subgraph SG_NW [NEW/EASY ROUTE]
             AD("Gravel\nSand\n(Hammer Cobble)")
             AC(Craft Seared Tank)
-            AJ(Coke Oven)
             BC("Apothecary Villager\n(Clay Trade)")
         end
-        BC --> AJ
         AD --> AC
         AE(XP Storage)
         AF(XP Drain)
         AG(XP Bucket)
+        BV("Vanilla Wood\n(If villagers do not\ncooperate, try IC2\ncrops or QB trade)")
+        BW(Part Builder)
     end
     L -->|Flint GT Tools| N
     M --> N --> O --> P
@@ -97,6 +97,7 @@ flowchart TD
     AF --> AE --> AG --> SG_XP
     O --> AC
     AB --> BC --> AC
+    BV --> BW --> U
 
     subgraph SG_XP [XP AGE]
         AH(XP Bucket Crafting)
