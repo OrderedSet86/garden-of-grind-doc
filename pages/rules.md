@@ -53,17 +53,31 @@ Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for wri
     - You need this for one item and bee start:
         - Flawless diamond (needed to make MV lathe for circuit progression)
         - For bee start, make a scoop and get bee coins. You can use these to trade for two hives. If the hives do not drop a princess and a drone (needed for the next step of QB bees), reset to a backup. After you clear the princess/drone boundary, breed carefully (eg gentle frames) until you can get to alveary swarmer, which lets you generate new ignobles. After this, work towards Botania Hiveacynth, which will unlock new bees for you.
-    - For our run we are **not** doing min questbook, so we can trade for eg. silverwoods as well, but we are **not** allowing opening lootbags.
-5. **No collecting progression resources from non-OW dims**
-    - In other words, non-OW void mining is disallowed, and anything else that relies on that dim - eg kobold hollow hill farming in TF.
-    - You can use other dims to progress in QB.
-    - (Feel free to break this rule for your own run, this is just what we did for GotG run.)
-6. **Exception to rule 5**
+    
+#### Run-Specific Rules
+
+Feel free to break these rules for your own run, this is just what we did for GotG run. We modify some rules further to increase difficulty.
+
+5. **Opening questbook lootbags is banned.**
+6. **Non-OW dimensions may be used only for questbook progression**
+    - Anything that relies on the dim to do something not possible in the same tier at OW is banned, including but not limited to:
+        - Bee breeding (nether dimensions, hellish, space bees)
+        - Mob farming (kobold farming in TF)
+        - Dragon's Breath from Ender Dragon in end dimension (OW Ender Dragon is fine and required progression)
+7. **Exception to rule 2**
     - Since Chaos Crystal is needed for stargate, you are allowed to travel to the end and kill the Chaos Dragon for Chaos Crystals. Due to earlier config it should be the only thing that generates in the end.
-7. **difficulty=hard**
 8. **OW void rules**
     - For our run, we banned overworld void pumping (as this makes oil trivial), but allowed overworld void mining (ZPM+).
-
+9. **Savescumming is allowed**
+    - Do RNG task, check outcome, restore backup if failed
+10. **difficulty=hard**
+11. **Worldedit is banned, but we changed the following settings to make Schematica printer easier**
+    - In `Schematica.cfg`:
+        - `B:placeInstantly=true`
+        - `I:placeDelay=0`
+    - This only pulls blocks from inventory, which is a more "legit" way to build structures.
+    - Note that normal stargate rules allow Worldedit for cosmetic purposes:
+12. **Pollution off**
 
 ### Manual Garden of Grind (MGoG) (2022-2024)
 
