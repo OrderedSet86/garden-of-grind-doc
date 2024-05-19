@@ -71,12 +71,9 @@ Feel free to break these rules for your own run, this is just what we did for Go
 9. **Savescumming is allowed**
     - Do RNG task, check outcome, restore backup if failed
 10. **difficulty=hard**
-11. **Worldedit is banned, but we changed the following settings to make Schematica printer easier**
-    - In `Schematica.cfg`:
-        - `B:placeInstantly=true`
-        - `I:placeDelay=0`
-    - This only pulls blocks from inventory, which is a more "legit" way to build structures.
-    - Note that normal stargate rules allow Worldedit for cosmetic purposes:
+11. **Worldedit is allowed**
+    - We initially tried to do Schematica only, as this takes from player inventory, but it doesn't support microblocks. This was burning out our builders so we voted that it would be allowed.
+    - Note that normal stargate rules allow Worldedit for cosmetic purposes: https://docs.google.com/document/d/1Iww1FNLkCuun6s6LW7Q6_1Z1aldtxYeRxYOeq_P-vK8/edit
 12. **Pollution off**
 
 ### Manual Garden of Grind (MGoG) (2022-2024)
