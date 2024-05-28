@@ -64,8 +64,9 @@ Feel free to break these rules for your own run, this is just what we did for Go
         - Bee breeding (nether dimensions, hellish, space bees)
         - Mob farming (kobold farming in TF)
         - Dragon's Breath from Ender Dragon in end dimension (OW Ender Dragon is fine and required progression)
-7. **Exception to rule 6**
+7. **Exceptions to rule 6**
     - Since Chaos Crystal is needed for stargate, you are allowed to travel to the end and kill the Chaos Dragon for Chaos Crystals. Due to earlier config it should be the only thing that generates in the end.
+    - To get Barnarda C Sapling, you need first breed the Treetwister trait onto a bee and then apply it to a sapling in a "magically active dimension" which right now means Spectre, Bedrock, Last Millenium, or Pocket Plane dimensions.
 8. **OW void rules**
     - For our run, we banned overworld void pumping (as this makes oil trivial), but allowed overworld void mining (ZPM+).
 9. **Savescumming is allowed**
