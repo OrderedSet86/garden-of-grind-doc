@@ -50,8 +50,7 @@ Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for wri
 3. **Generate world normally**
     - You don't have to turn "generate structures" off!
 4. **Questbook allowed**
-    - You need this for one item and bee start:
-        - Flawless diamond (needed to make MV lathe for circuit progression)
+    - You need this for bee start:
         - For bee start, make a scoop and get bee coins. You can use these to trade for two hives. If the hives do not drop a princess and a drone (needed for the next step of QB bees), reset to a backup. After you clear the princess/drone boundary, breed carefully (eg gentle frames) until you can get to alveary swarmer, which lets you generate new ignobles. After this, work towards Botania Hiveacynth, which will unlock new bees for you.
     
 #### Run-Specific Rules
@@ -64,9 +63,13 @@ Feel free to break these rules for your own run, this is just what we did for Go
         - Bee breeding (nether dimensions, hellish, space bees)
         - Mob farming (kobold farming in TF)
         - Dragon's Breath from Ender Dragon in end dimension (OW Ender Dragon is fine and required progression)
+7. **Use questbook to get flawless diamond**
+    - As a result of our earlier rule, we cannot breed Diamond bee until much later (EV+ biome change) as we require a nether biome. But flawless diamond is required to enter HV. So we are allowed to do the Questbook trade for diamond ore, which lets us make the MV lathe for HV circuit progression.
+    - (NOTE: We collected all questbook rewards anyway (except lootbags), so this isn't really a new allowance for us, just noting it for min questbook runs that also ban non-OW dims.)
 7. **Exceptions to rule 6**
-    - Since Chaos Crystal is needed for stargate, you are allowed to travel to the end and kill the Chaos Dragon for Chaos Crystals. Due to earlier config it should be the only thing that generates in the end.
+    - Convocation of the Damned is blacklisted from working in the OW, so we are allowed to do it in another dimension.
     - To get Barnarda C Sapling, you need to first breed the Treetwister trait onto a bee and then apply it to a sapling in a "magically active dimension" which right now means Spectre, Bedrock, Last Millenium, or Pocket Plane dimensions.
+    - Since Chaos Crystal is needed for stargate, you are allowed to travel to the end and kill the Chaos Dragon for Chaos Crystals. Due to earlier config it should be the only thing that generates in the end.
 8. **OW void rules**
     - For our run, we banned overworld void pumping (as this makes oil trivial), but allowed overworld void mining (ZPM+).
 9. **Savescumming is allowed**
