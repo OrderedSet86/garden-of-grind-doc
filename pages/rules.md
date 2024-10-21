@@ -12,11 +12,11 @@ See below for rulesets.
 
 Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for writing a mixin to remove world gen. The benefit of this new mixin is that it allows us to travel to other dims (yay no more OW skybox), and not be stuck with a single biome. **With these rules Stargate is possible!!**
 
-1. **Ensure using a Hodgepodge version after this commit**
+1. **Ensure using a Hodgepodge version after this commit. (If you are on 2.6.1 or later version of GTNH, you can completely ignore this)**
     - https://github.com/GTNewHorizons/Hodgepodge/pull/358
     - You can easily download the jar at this release tag https://github.com/nzbasic/Hodgepodge/releases/tag/Skygate
     - This removes world gen on a code level, allowing us to keep biomes and making modded dimensions empty
-2. **Config changes**
+2. **Config changes. Make sure to launch the instance at least once to generate all configs!**
     - `GregTech/Worldgeneration.cfg`
         - Under `endasteroids`, set:
             - `B:GenerateAsteroids_true=false`
@@ -53,12 +53,12 @@ Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for wri
     - You need this for bee start:
         - For bee start, make a scoop and get bee coins. You can use these to trade for two hives. If the hives do not drop a princess and a drone (needed for the next step of QB bees), reset to a backup. After you clear the princess/drone boundary, breed carefully (eg gentle frames) until you can get to alveary swarmer, which lets you generate new ignobles. After this, work towards Botania Hiveacynth, which will unlock new bees for you.
     
-#### Run-Specific Rules
+#### Run-Specific Rules. You do not have to follow these if you decide not to.
 
 Feel free to break these rules for your own run, this is just what we did for GotG run. We modify some rules further to increase difficulty.
 
 5. **Opening questbook lootbags is banned.**
-6. **Non-OW dimensions may be used only for questbook progression**
+6. **Non-OW dimensions may be used only for questbook progression (This was a flawed rule as several dimensions are required for progression.)**
     - Anything that relies on the dim to do something not possible in the same tier at OW is banned, including but not limited to:
         - Bee breeding (nether dimensions, hellish, space bees)
         - Mob farming (kobold farming in TF)
@@ -105,12 +105,13 @@ Feel free to break these rules for your own run, this is just what we did for Go
 4. **Dimension: overworld**
 5. **No going to dims outside overworld. This means no rockets, TF, etc.**
 5. **difficulty=hard**
-6. **Questbook allowed**
+    - This is recommended regardless, as it increases the Thaumcraft champion spawn chance from 1% to 3%.
+7. **Questbook allowed**
     - You need this for three items and bee start:
     - Silverwood + greatwood sapling (used for certain crafting recipes in Thaumcraft; there’s a coin trade)
     - Flawless diamond (needed to make MV lathe for circuit progression)
     - For bee start, make a scoop and get bee coins. You can use these to trade for two hives. If the hives do not drop a princess and a drone (needed for the next step of QB bees), reset to a backup. After you clear the princess/drone boundary, breed carefully (eg gentle frames) until you can get to alveary swarmer, which lets you generate new ignobles. After this, work towards Botania Hiveacynth, which will unlock new bees for you.
-7. **No using bugs (eg disassembler) for obtaining resources**
+8. **No using bugs (eg disassembler) for obtaining resources**
     - Previously we used cupronickel coil disassembly to get mica, but there are viable methods to avoid this now.
 
 
@@ -124,6 +125,6 @@ https://docs.google.com/document/d/1Ajmpajbpw8H9rOpiPgX6AcUOcpdIfArwb-aoVrKly4I/
 
 --------------------------------------
 
-1. Nether roof / nether only run
+1. Nether only run
 2. No rocket (we share a lot of progression with the traditional no-rocket run)
 3. Peaceful (you may have to spawn in some items to bypass mob gates, like the first nether star)
