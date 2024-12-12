@@ -1,4 +1,4 @@
-# Garden of Grind (0 Item GT:NH Skyblock)
+# Garden of Grind (0 Item 0 Block GT:NH Skyblock)
 
 ![Sampsa celebrating wood age in 2022 run](assets/images/gog-sampsa-woodage.png)
 ![BURN](assets/images/gog-mobfarm-burning.png)
