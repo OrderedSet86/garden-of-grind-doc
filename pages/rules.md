@@ -19,7 +19,7 @@ Applies for new run starting May 3rd 2024! Thanks to `nzbasic` (Discord) for wri
 2. **Config changes. Make sure to launch the instance at least once to generate all configs!**
     - `GregTech/Worldgeneration.cfg`
         - Under `endasteroids`, set:
-            - `B:GenerateAsteroids_true=false`
+            - `B:generateEndAsteroids=false`
     - `hodgepodge.cfg`
         - Under the `tweaks` section, add the following three settings:
             - `B:disableChunkTerrainGeneration=true`
