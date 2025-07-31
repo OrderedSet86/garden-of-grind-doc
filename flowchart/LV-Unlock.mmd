@@ -39,6 +39,11 @@ flowchart TD
             ZC(Pech Trading)
             ZD(Silverwood + Greatwood Saplings)
         end
+        subgraph SG_PC [WARP EVENTS]
+            WE_SWAMP(SWAMP-EVENT\ Saplings, Water)
+            WE_COIN(COIN-EVENT\ Single Coin)
+            WE_JUNK(JUNK-EVENT\ Cobblestone, Dirt)
+        end
         ZA --> ZC
         ZB --> ZC
         ZC --> ZD
@@ -190,3 +195,4 @@ flowchart TD
     class AG gate
     class BJ gate
     class ZD gate
+    class WE_SWAMP gate
