@@ -67,11 +67,13 @@ Now you can make a BBF, so do that 🙂
 
 To start making LV circuits, you need vacuum tubes. To do this you will need a ball mold, which you can only make in a TC smeltery. **So how do you get lava?**
 
-There is a bee drop - Simmering Comb (available as a low likelihood villager trade) - that gives lava when centrifuged. But you’re pre-LV and therefore have no LV centrifuge. Fortunately, we have a savior in a meme item:
+We can obtain lava by centrifuging Simmering Combs. But you’re pre-LV and therefore have no LV centrifuge. Fortunately, we have a savior in a meme item:
 
 ![](../assets/images/gog-hobbyist-steam-engine.png)
 
-Yes - the **Hobbyist Steam Engine** (HSE) is finally useful! We can use a **Forestry Centrifuge** (as it also does not require LV circuits) and RF from the HSE to process our simmering combs. But to craft the HSE, you need lapis lazuli plates. Normally you would look to IC2 crops to solve this problem, but the IC2 Lazulia crop requires a lapis block or lapis ore, so we’re back where we started.
+Yes - the **Hobbyist Steam Engine** (HSE) is finally useful! We can use a **Forestry Centrifuge** (as it also does not require LV circuits) and RF from the HSE to process our simmering combs. Simmering Combs can be obtained as a trade from Bee Keeper villagers. Each Bee Keeper can trade [only one possible type of comb](https://github.com/GTNewHorizons/ForestryMC/blob/c89b61682a9ef389edc68932fce39050d0e76d3e/src/main/java/forestry/apiculture/VillageHandlerApiculture.java#L54), so if a bee keeper tries to sell you Dripping Combs, you know they won't offer you Simmering Combs in future trades, either.
+
+To craft the HSE, you need lapis lazuli plates. Normally you would look to IC2 crops to solve this problem, but the IC2 Lazulia crop requires a lapis block or lapis ore, so we’re back where we started.
 
 ![](../assets/images/gog-lazulia-ic2-crop.png)
 
