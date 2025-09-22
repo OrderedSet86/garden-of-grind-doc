@@ -19,7 +19,7 @@ Once you’ve completed these two tasks, spawn proof the main island with dracon
 
 ![](../assets/images/gog-draconic-place.png)
 
-From there, you have two options. You can find a biome with the 'magic' tag, said tags can be found on the biomes page of the GTNH wiki, and make a spawn area, be it flat or enclosed 1 by 1 by 2 cells. It should eventually yield a pech. Pech's can be traded with, but the specific one you want is the Pech Forager, as it can trade you a silverwood or greatwood sapling and thaumium tools. Pechs accept any item with the lucrum aspect, such as gold coins and gear, gems, and music discs. That only secures wood, however. The next part gets you villagers.
+From there, you have two options. You can find a biome with the 'magic' tag, said tags can be found on the biomes page of the GTNH wiki, and make a spawn area, be it flat, or enclosed 1 by 1 by 2 cells. It should eventually yield a pech. Pech's can be traded with, but the specific one you want is the Pech Forager, as it can trade you a silverwood or greatwood sapling, thaumium tools, and rarely, a golden apple. Pechs accept any item with the lucrum aspect, such as gold coins and gear, gems, some dungeon loot, and music discs. That only secures wood, however. The next part gets you villagers. (The raw ore clusters traded by the pechs are also very worthwhile to keep, though feel free to trade gold ones back. The iron, tin, silver, and lead, however, are very useful! Iron, tin, and copper are self-explanatory, but the silver ones can be used for Solar boilers, which are very powerful, especially upgraded, and lead ones can be used for good pipes, either directly, or as potin, which can save you one copper and tin.)
 
 Your next goal is to build a manual skeleton grinder using graves. You want to obtain two things - a **splash potion of weakness**, and a **non-enchanted golden apple**. These will be used to cure a zombie villager, who will give you your sapling trade, if you haven't acquried one already. Unfortunately, these are from player kills only, so we need to do some careful design.
 
@@ -35,13 +35,13 @@ Of course, we don’t have stone slabs in world and using dirt is annoying due t
 
 ![](../assets/images/gog-draconic-skeleton-grinder.png)
 
-Eventually you will acquire your splash weakness potion and golden apple. Build a separate spawning area so you can pull out a zombie villager, then use the items on him to convert him back into a villager. (Make sure the sky is blocked so he does not burn during the day!)
+Eventually, you will acquire your splash weakness potion and golden apple. Build a separate spawning area so you can pull out a zombie villager, then use the items on him to convert him back into a villager. Starting in 2.8, this is slightly easier if you have wood, as the boats have been converted to their newer vanilla counterparts by the addition of Et Futuurum Requiem. (Make sure the sky is blocked so he does not burn during the day!)
 
 ![](../assets/images/gog-zombie-villager.png)
 
-If you don’t get the villager you want (sapling trade, glass trade, clay trade, or wand trade), this is ok. Use the questbook to get a cookie and craft a Mystery Arrow. Place a dispenser into the villager chamber and take a backup. Now add your Mystery Arrow and activate the dispenser using a redstone torch (redstone and sticks are a drop from witches, and torches are a drop from a certain type of creeper if you can’t get sticks). 
+If you don’t get the villager you want (sapling trade, glass trade, clay trade, or wand trade), this is ok. Use the questbook to get a cookie and craft a Mystery Arrow. Place a dispenser into the villager chamber and take a backup. Now add your Mystery Arrow and activate the dispenser using a redstone torch (redstone and sticks are drops from witches, and torches are drops from a certain type of creeper if you can’t get sticks). 
 
-From there, you can either use the raw ore clusters from the pechs to make doors, and a full-on villager breeder, or otherwise restore your backup until you get the type of villager you want (a farmer with a vanilla sapling trade). Congratulations, you’ve entered the **Wood Age!**
+From there, you can either use the raw ore clusters from the pechs to make doors, and a full-on villager breeder, or otherwise restore your backup until you get the type of villager you want (a farmer with a vanilla sapling trade or Forestry lumberjack, which has a guaranteed sapling trade, whether it's first or third, and said sapling may also need to be grown in anything from a 1 by 1 to a 4 by 4.). Congratulations, you’ve entered the **Wood Age!**
 
 # The Wood Age
 
@@ -57,7 +57,7 @@ Your goal in the Wood Age is to obtain XP bucket crafting. This will give you ac
 
 The longer / older method (RC tank):
 
-1. Obtain iron from raw ore closters from pechs and iron ingot drops from zombies, or brutish mobs, which you will use for RC tank and cropsticks.
+1. Obtain iron from raw ore clusters from pechs and iron ingot drops from zombies, or brutish mobs, which you will use for RC tank and cropsticks.
 2. Build an XP drain and an RC tank to hold the XP (this requires a lot of iron)
 3. Crossbreed IC2 crops, or, again, use raw ore clusters for the bronze you need for the RC tank valve (copper + tin oreberry)
 
@@ -69,15 +69,15 @@ When trying to obtain XP oreberries, we recommend going on the red mushroom -> r
 
 Now you can make a BBF, so do that 🙂
 
-To start making LV circuits, you need vacuum tubes. To do this you will need a ball mold, which you can only make in a TC smeltery. **So how do you get lava?**
+To start making LV circuits, you need vacuum tubes. To do this, you will need a ball mould, which you can only make in a TC smeltery. **So how do you get lava?**
 
-There is a bee drop - Simmering Comb (available as a low likelihood villager trade, drop from a nether hive which can be bought from the questbook, or as an output from the Transmutating Bee, if you're into bee breeding) - that gives lava when centrifuged. But you’re pre-LV and therefore have no LV centrifuge. Fortunately, we have a savior in a meme item:
+There is a bee drop - Simmering Comb (available as a low likelihood villager trade, drop from a nether hive, which can be bought from the questbook, or as an output from the Transmutating Bee, if you're into bee breeding) - that gives lava when centrifuged. But you’re pre-LV and therefore have no LV centrifuge. Fortunately, we have a saviour in a meme item:
 
 ![](../assets/images/gog-hobbyist-steam-engine.png)
 
 Yes - the **Hobbyist Steam Engine** (HSE) is finally useful! We can use a **Forestry Centrifuge** (as it also does not require LV circuits) and RF from the HSE to process our simmering combs. Simmering Combs can be obtained as a trade from Bee Keeper villagers. Each Bee Keeper can trade [only one possible type of comb](https://github.com/GTNewHorizons/ForestryMC/blob/c89b61682a9ef389edc68932fce39050d0e76d3e/src/main/java/forestry/apiculture/VillageHandlerApiculture.java#L54), so if a bee keeper tries to sell you Dripping Combs, you know they won't offer you Simmering Combs in future trades, either.
 
-To craft the HSE, you need lapis lazuli plates. Normally you would look to IC2 crops to solve this problem, but the IC2 Lazulia crop requires a lapis block or lapis ore, so we’re back where we started.
+To craft the HSE, you need lapis lazuli plates. Normally, you would look to IC2 crops to solve this problem, but the IC2 Lazulia crop requires a lapis block or lapis ore, so we’re back where we started.
 
 ![](../assets/images/gog-lazulia-ic2-crop.png)
 
@@ -87,30 +87,32 @@ Fortunately, this problem is solvable - there is a magical crop that drops lapis
 
 # Thaumcraft Research
 
-Thaumcraft progression at this point is very awkward, so we’ll pull some tricks from [Stone Age Thaumcraft](https://docs.google.com/document/d/1VF9HJPsaJasY_V_3OeJOX5RIRzGx5Xjfr-iBzzjfZGU/edit). In particular, we can obtain a profane wand from a heretic villager, or wand drop from killing a Pech Mage, and we can get a bookshelf trade from a librarian villager. This allows us to obtain a **Thaumonomicon**. We can also obtain **Scribing Tools**:
+Thaumcraft progression at this point is very awkward, so we’ll pull some tricks from [Stone Age Thaumcraft](https://docs.google.com/document/d/1VF9HJPsaJasY_V_3OeJOX5RIRzGx5Xjfr-iBzzjfZGU/edit). In particular, we can obtain a profane wand from a heretic villager, or a wand drop from killing a Pech Mage, and we can get a bookshelf trade from a librarian villager. This allows us to obtain a **Thaumonomicon**. We can also obtain **Scribing Tools**:
 
 1. Feathers (drops from chickens and some sniper skeleton mobs)
 2. Ink sacs (squid spawns - should happen quite fast in a void world)
 3. Glass bottle (drops from witches)
 4. Rubber round (rubber is craftable from XP buckets and steam machines)
 
-With these two tools and paper from IC2 sugar cane, we can make researches. For Thaumcraft lazullia, you need:
+With these two tools and paper from IC2 sugar cane, we can make researches. For Thaumcraft lazullia, you need: 
 
 1. [Thaumic Bases] Metalleat
 2. [Thaumic Bases] Basic Plants
 
-But wait… how do you do the researches?? You have only a few primals when starting out in your thaumcraft journey, if you lack a Pech or Wizard villager to trade with for knowledge fragments, and you don’t have a thaumometer yet. Obtaining a thaumometer requires a diamond lens, which you can’t make until LV post lathe and cutting machine. But we haven’t even made LV circuits yet. Our answer is abusing an obscure mechanic: bonus points.
+(Quick tip: You can bookmark a research, swap worlds to a creative one that has all the Thaumcraft research and aspects by clicking the Cheater's Thaumonomicon, and easily check what aspects you need by placing it in a research table. It won't complete it, but you can minimise making extra aspects until you have a proper source.)
+
+But wait… how do you do the research?? You have only a few primals when starting out in your thaumcraft journey, and you don’t have a thaumometer yet. Obtaining a thaumometer requires a diamond lens, which you can’t make until LV post lathe and cutting machine. But we haven’t even made LV circuits yet. Our answer is abusing an obscure mechanic: bonus points. (Alternatively, you can buy knowledge fragments from pechs and Wizard villagers, eating dried zombie brains, by killing a mob with the Elder Wisdom enchant on a weapon, which sometimes gives you the aspects of said mob, such as humanus from villagers, bestia from animals, alienis from eldritch guardians, etc., or from the warp effect, though it is infrequent and pretty slow.) 
 
 ![](../assets/images/gog-bonus-points.png)
 
 Ever noticed these annoying shimmers in the top left of the aspects in the research table? Those are actually free research points! Every 30 seconds, each research table in the world will randomly select a block in a roughly 8x8x8 radius and check if it is in the whitelisted bonus points table. Most whitelisted blocks give what you would expect - ignis for lava, aqua for water, terra for cobblestone, etc. If you happen to have a bookcase in radius, any point can be added, even compound points (eg instrumentum).
 
-The bonus point is only spent when you are at 0 stored points for that aspect, and there is only 1 bonus point. This sounds useless, until you realize:
+The bonus point is only spent when you are at 0 stored points for that aspect, and there is only 1 bonus point. This sounds useless, until you realise:
 
 1. Researches can be moved between tables while in progress
 2. The bonus points are stored **per table**, which means you can build up one of every point per table (assuming the tables are chunkloaded long enough).
 
-Using this, you are able to complete early researches. To unlock new points that you would normally unlock using the thaumometer, just drag the primals onto each other to build the compound aspects. You can follow this chart, which has most aspects (except for the new ones Alastor has added):
+Using this, you are able to complete early research. To unlock new points that you would normally unlock using the thaumometer, just drag the primals onto each other to build the compound aspects. You can follow this chart, which has most aspects (except for the new ones Alastor has added):
 
 ![](../assets/images/gog-aspects-chart.png)
 
@@ -122,7 +124,7 @@ You can also try using balanced shard transmutation to get shards later if you�
 
 Once you get your lava and your TC smeltery built - be careful with what you put in! You won’t get infinite trades with the beekeeper villager at this point in the game - some trades require spending princesses or drones, which you really don’t want at this stage. 
 
-Fortunately, the other methods are much more renewable, but do require some knowledge of bee breeding, to either breed the Transmuting bee, or otherwise breed out the Flowers: Nether trait of the nether bee, replacing it with Flowers: Flowers, or some other available block. While nether wart can be bred using ic2 crops, soul sand requires lv infrastructure.
+Fortunately, the other methods are much more renewable, but do require some knowledge of bee breeding, to either breed the Transmuting bee, or otherwise breed out the Flowers: Nether trait of the nether bee, replacing it with Flowers: Flowers, Rock, Water, or some other available block. While nether wart can be bred using ic2 crops, soul sand requires lv infrastructure, and it therefore cannot be placed in the world for the bee to function. (p.s. this is the same function by which you can get the node and end lines of bees, lacking a proper node or the dragon egg for their flowers.)
 
 Fortunately, preserving lava in the TC smeltery is quite simple - it just uses a constant amount of lava when on, regardless of size or which items are currently being burnt. So you just need to make a big smeltery and do a big batch. Compressing metals or using large plates helps you get multiple items done in a single operation. You can see our batch:
 
@@ -133,8 +135,8 @@ That is:
 1. 1 copper block (For aluminium brass.)
 2. 5 bronze blocks (For tools)
 3. 10 steel blocks (For the gt molds and shapes)
-4. 10 aluminium dust (For aluminium brass. From 2.8 and on, replace this with zinc. Alternatively, you can alloy brass in the steam alloy smelter for a better ratio, unlike aluminium brass which is an mv voltage recipe.)
-5. 32 glass dust (For glass blocks for crafting, such as for solar boilers, which make free steam for just some silver, which can be made with xp or as ore clusters from the pechs)
+4. 10 aluminium dust (For aluminium brass. From 2.8 and on, replace this with zinc. Alternatively, you can alloy brass in the steam alloy smelter for a better ratio, unlike aluminium brass, which is an mv voltage recipe.)
+5. 32 glass dust (For glass blocks for crafting, such as for solar boilers, which make free steam for just some silver, which can be made with xp or as ore clusters from the pechs. You can skip this as it has a recipe in the alloy smelter.)
 6. 1 block + 7 alumite ingots (For making a tool forge)
 7. 16 large stone plates (For the two seared stone blocks, one for the casting table, the other for the tool forge)
 
