@@ -11,3 +11,7 @@ At the end of October 2022, with additional routing from the whole team, we foun
 Many other GoG runs have been done since then, reaching as high as UEV.
 
 In April 2024, `sovy.` got everyone together for a new community GoG run - Gates of the Garden. This new run was created after we figured out a workaround for all gates, making stargate theoretically achieveable! We were greatly aided by `nzbasic`'s mixin allowing complete disabling of world gen in all dimensions. More news to come...
+
+Since then, many others have completed GoG runs, both solo and as a team. 
+
+Additionally, many new paths were found since then, simplifying early game a ton, such as using pechs to acquire wood and metals early. 
