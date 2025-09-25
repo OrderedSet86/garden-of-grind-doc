@@ -126,7 +126,7 @@ You can also try using balanced shard transmutation to get shards later if you�
 
 Once you get your lava and your TC smeltery built - be careful with what you put in! You won’t get infinite trades with the beekeeper villager at this point in the game - some trades require spending princesses or drones, which you really don’t want at this stage. 
 
-Fortunately, the other methods are much more renewable, but do require some knowledge of bee breeding, to either breed the Transmuting bee, or otherwise breed out the Flowers: Nether trait of the nether bee, replacing it with Flowers: Flowers, Rock, Water, or some other available block. While nether wart can be bred using ic2 crops, soul sand requires lv infrastructure, and it therefore cannot be placed in the world for the bee to function. (p.s. this is the same function by which you can get the node and end lines of bees, lacking a proper node or the dragon egg for their flowers.)
+Fortunately, the other methods are much more renewable. Buying a nether hive from the qb and then either just using the simmering comb that drops from it, or letting the embittered bee work in the nether, as it requries Flowers: Flowers, not Flowers: Nether. The other way, if you've decided to restrict access to the Nether, is to breed the Transmuting bee.
 
 Fortunately, preserving lava in the TC smeltery is quite simple - it just uses a constant amount of lava when on, regardless of size or which items are currently being burnt. So you just need to make a big smeltery and do a big batch. Compressing metals or using large plates helps you get multiple items done in a single operation. You can see our batch:
 
